@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Lato-Regular.ttf">
+            <string>Lato-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Notify_View">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="113"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="awq-15-zJ5">
+                    <rect key="frame" x="0.0" y="0.0" width="153" height="111"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCn-FR-U8x">
+                            <rect key="frame" x="4" y="5" width="123" height="19.5"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="-53" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Buy now">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYQ-zp-QuI">
+                            <rect key="frame" x="2" y="34.5" width="149" height="1"/>
+                            <color key="backgroundColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76t-xQ-1II">
+                            <rect key="frame" x="4" y="45" width="123" height="20"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="My Playlist">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uv0-WL-f5h">
+                            <rect key="frame" x="2" y="74.5" width="149" height="1"/>
+                            <color key="backgroundColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.63921568627450975" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wPa-Ve-vyA">
+                            <rect key="frame" x="4" y="85.5" width="123" height="19.5"/>
+                            <fontDescription key="fontDescription" name="Lato-Regular" family="Lato" pointSize="13"/>
+                            <inset key="titleEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Call / Email">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="wPa-Ve-vyA" firstAttribute="width" secondItem="awq-15-zJ5" secondAttribute="width" multiplier="119:148" id="1BS-uF-yVl"/>
+                        <constraint firstItem="uv0-WL-f5h" firstAttribute="height" secondItem="awq-15-zJ5" secondAttribute="height" multiplier="1:113" id="4qT-xT-c8A"/>
+                        <constraint firstItem="76t-xQ-1II" firstAttribute="width" secondItem="awq-15-zJ5" secondAttribute="width" multiplier="119:148" id="55f-Zm-kb2"/>
+                        <constraint firstItem="76t-xQ-1II" firstAttribute="height" secondItem="awq-15-zJ5" secondAttribute="height" multiplier="20:113" id="A5F-bT-Xed"/>
+                        <constraint firstItem="GYQ-zp-QuI" firstAttribute="width" secondItem="awq-15-zJ5" secondAttribute="width" multiplier="144:148" id="EJv-7n-BcM"/>
+                        <constraint firstItem="aCn-FR-U8x" firstAttribute="leading" secondItem="awq-15-zJ5" secondAttribute="trailing" multiplier="4:148" id="LmK-aY-tGX"/>
+                        <constraint firstItem="76t-xQ-1II" firstAttribute="top" secondItem="awq-15-zJ5" secondAttribute="bottom" multiplier="46:113" id="UcJ-0z-pvx"/>
+                        <constraint firstItem="aCn-FR-U8x" firstAttribute="height" secondItem="awq-15-zJ5" secondAttribute="height" multiplier="20:113" id="XaK-wa-qCk"/>
+                        <constraint firstItem="uv0-WL-f5h" firstAttribute="leading" secondItem="awq-15-zJ5" secondAttribute="trailing" multiplier="2:148" id="aP7-TR-0t4"/>
+                        <constraint firstItem="uv0-WL-f5h" firstAttribute="width" secondItem="awq-15-zJ5" secondAttribute="width" multiplier="144:148" id="bY9-4T-JEW"/>
+                        <constraint firstItem="wPa-Ve-vyA" firstAttribute="top" secondItem="awq-15-zJ5" secondAttribute="bottom" multiplier="87:113" id="cDe-aI-2HB"/>
+                        <constraint firstItem="GYQ-zp-QuI" firstAttribute="height" secondItem="awq-15-zJ5" secondAttribute="height" multiplier="1:113" id="d1O-zF-8xg"/>
+                        <constraint firstItem="GYQ-zp-QuI" firstAttribute="top" secondItem="awq-15-zJ5" secondAttribute="bottom" multiplier="35:113" id="gcA-VX-B3w"/>
+                        <constraint firstItem="wPa-Ve-vyA" firstAttribute="leading" secondItem="awq-15-zJ5" secondAttribute="trailing" multiplier="4:148" id="iC8-31-CQm"/>
+                        <constraint firstItem="76t-xQ-1II" firstAttribute="leading" secondItem="awq-15-zJ5" secondAttribute="trailing" multiplier="4:148" id="jZW-d8-Ej7"/>
+                        <constraint firstItem="aCn-FR-U8x" firstAttribute="top" secondItem="awq-15-zJ5" secondAttribute="bottom" multiplier="5:113" id="lO1-8h-bAA"/>
+                        <constraint firstItem="GYQ-zp-QuI" firstAttribute="leading" secondItem="awq-15-zJ5" secondAttribute="trailing" multiplier="2:148" id="mIs-HG-G70"/>
+                        <constraint firstItem="wPa-Ve-vyA" firstAttribute="height" secondItem="awq-15-zJ5" secondAttribute="height" multiplier="20:113" id="xCM-tI-YU1"/>
+                        <constraint firstItem="aCn-FR-U8x" firstAttribute="width" secondItem="awq-15-zJ5" secondAttribute="width" multiplier="119:148" id="xVT-xT-qaG"/>
+                        <constraint firstItem="uv0-WL-f5h" firstAttribute="top" secondItem="awq-15-zJ5" secondAttribute="bottom" multiplier="76:113" id="xj7-G1-Wl6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="awq-15-zJ5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" multiplier="148:150" id="41Z-LP-DOZ"/>
+                <constraint firstItem="awq-15-zJ5" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="148:150" id="6WL-Yz-pe2"/>
+                <constraint firstItem="awq-15-zJ5" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="113:115" id="6zk-m5-eKP"/>
+                <constraint firstItem="awq-15-zJ5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" multiplier="113:115" id="DPD-9k-Mon"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnBuyNow" destination="aCn-FR-U8x" id="H4u-gR-6JC"/>
+                <outlet property="btnCall" destination="wPa-Ve-vyA" id="svb-vp-cbS"/>
+                <outlet property="btnMyPlaylist" destination="76t-xQ-1II" id="7bC-BV-yag"/>
+                <outlet property="view_Popup" destination="awq-15-zJ5" id="IAo-Yh-8z0"/>
+            </connections>
+            <point key="canvasLocation" x="23.5" y="-187.5"/>
+        </view>
+    </objects>
+</document>
