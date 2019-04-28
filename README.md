@@ -7,10 +7,10 @@
 
 # Features
 
-> Material design
-> Browse Songs, Albums, Artists
-> Create and edit playlists
-> Dark theme and UI customisability
-> Gestures for track switchin
-> Playing queue in notification (Xposed)
-> Lyrics support
+1. Material design
+2. Browse Songs, Albums, Artists
+3. Create and edit playlists
+4. Dark theme and UI customisability
+5. Gestures for track switchin
+6. Playing queue in notification (Xposed)
+7. Lyrics support
